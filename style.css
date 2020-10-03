@@ -16,7 +16,14 @@ body {
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
-
+.black {
+    background: #000;
+}
+.sticky{
+    position:fixed;
+    top:0;
+    width:100%;
+}   
 .main-nav {
     display: flex;
     width:100%;
@@ -24,6 +31,7 @@ body {
     margin: 0;
     font-size: 0.7em;
     padding:0px;
+
 
 }
 
@@ -48,6 +56,7 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
 li:hover{
     transform:scale(1.1);
 }
@@ -61,7 +70,7 @@ li:hover{
 }
 .container {
     /*show heigh: auto*/
-    height: 95vh; 
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,9 +101,7 @@ footer {
     justify-content: center;
     display: flex;
 }
-.black {
-    background: #000;
-}
+
 .z1{
     display:grid;
     grid-template-columns:1fr 1fr;
