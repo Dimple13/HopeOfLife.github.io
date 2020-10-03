@@ -3,8 +3,12 @@
 <head>
   <title>Hope of Life</title>
   <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
 </head>
 <style media="screen">
+  .body,h1,h3,a,p,h2,th,td{
+    font-family: 'Architects Daughter', cursive;
+  }
   .loader{
     position:fixed;
     z-index:99;
@@ -25,6 +29,16 @@
   .loader.hidden{
     animation: fadeOut 1s;
     animation-fill-mode: forwards;
+  }
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size:25px;
+  }
+  th, td {
+  padding: 5px;
+  text-align: center;
   }
 </style>
 <script>
@@ -49,11 +63,45 @@
     <br>
     <br>
   <div class="row">
-      <div class="col-md-6">
-          <h1 style="align-items:center;display:flex;justify-content: center;">About Us</h1>
-      </div>
+    <h1 style="align-items:center;display:flex;justify-content: center;">About Us</h1>
+    <div>
+      <img style="float:right;display:flex;padding:0px 50px" src="img/dog.jpg" width=40% height=90%/>
+    <p style="padding:0px 50px;font-size:25px;text-align:justify">We are a NGO that works for the betterment for animals and pets.The shocking number of animal cruelty cases reported every day is just the tip of the iceberg—most cases are never reported. Unlike violent crimes against people, cases of animal abuse are not compiled by state or federal agencies, making it difficult to calculate just how common they are.The animals whose abuse is most often reported are dogs, cats, horses and livestock. We work for rescuing such animals and providing them their well deserved homes.Help us be their hope of life.Just contact us and our team will carry on a rescue based on the complaint.</p>
+    </div>
   </div>
- 
+  <br>
+  <h2 style="align-items:center;display:flex;justify-content: center;">List of cities we operate in-</h2>
+  <table style="width:80%;" align="center">
+    <tr>
+      <th>City</th>
+      <th>Contact number</th> 
+    </tr>
+    <tr>
+      <td>Delhi</td>
+      <td><a href="tel:+63 234568"  style="color:black;text-decoration:underline;cursor: pointer;">+91 994567348</a></td>
+    </tr>
+    <tr>
+      <td>Mumbai</td>
+      <td><a href="tel:+63 234568"  style="color:black;text-decoration:underline;cursor: pointer;">+91 994567346</a></td>
+    </tr>
+    <tr>
+      <td>Kolkata</td>
+      <td><a href="tel:+63 234568"  style="color:black;text-decoration:underline;cursor: pointer;">+91 994567349</a></td>
+    </tr>
+    <tr>
+      <td>Hyderabad</td>
+      <td><a href="tel:+63 234568"  style="color:black;text-decoration:underline;cursor: pointer;">+91 994567350</a></td>
+    </tr>
+    <tr>
+      <td>Amritsar</td>
+      <td><a href="tel:+63 234568"  style="color:black;text-decoration:underline;cursor: pointer;">+91 994567351</a></td>
+    </tr>
+    <tr>
+      <td>Bhopal</td>
+      <td><a href="tel:+63 234568"  style="color:black;text-decoration:underline;cursor: pointer;">+91 994567352</a></td>
+    </tr>
+  </table>
+  <br>
   <footer class="zone f-black">&#169 Hope of Life Copyright,2020</footer>
 </div>
 </body>
