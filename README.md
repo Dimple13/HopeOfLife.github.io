@@ -1,2 +1,2 @@
 # HopeOfLife
-A website for women empowerment by providing them opportunities
+A website for an animal rescue NGO
